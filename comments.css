@@ -1,0 +1,57 @@
+
+
+.comment-respond {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+}
+
+/* 评论分页样式 */
+.page-navigator {
+    display: flex;
+    flex-wrap: wrap; /* 允许在小屏幕上换行 */
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.page-navigator li {
+    margin: 0 5px 5px 0;
+}
+
+.page-navigator a {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+    border-radius: 3px;
+    display: block;
+}
+
+.page-navigator .current a {
+    background: #333;
+    color: #fff;
+    border-color: #333;
+}
+
+/* 响应式设计 - 平板设备 (768px 及以下) */
+@media screen and (max-width: 768px) {
+    
+    .page-navigator {
+        justify-content: flex-start;
+    }
+}
+
+/* 响应式设计 - 手机设备 (480px 及以下) */
+@media screen and (max-width: 480px) {
+    
+    .page-navigator li {
+        margin: 0 3px 3px 0;
+    }
+    
+    .page-navigator a {
+        padding: 4px 8px;
+        font-size: 0.9em;
+    }
+}

@@ -75,16 +75,16 @@
                         <li class="social-search-wrapper"><a href="<?php $this->options->siteUrl(); ?>?s=" class="search-toggle"><span class="screen-reader-text"><?php _e('搜索'); ?></span></a></li>
 
                         
-                        <?php if ($options->socialTwitter): ?>
-                        <li><a href="<?php echo $options->socialTwitter; ?>" target="_blank"><span class="screen-reader-text">Twitter</span></a></li>
+                        <?php if ($this->options->socialTwitter): ?>
+                        <li><a href="<?php echo $this->options->socialTwitter; ?>" target="_blank"><span class="screen-reader-text">Twitter</span></a></li>
                         <?php endif; ?>
                         
-                        <?php if ($options->socialFacebook): ?>
-                        <li><a href="<?php echo $options->socialFacebook; ?>" target="_blank"><span class="screen-reader-text">Facebook</span></a></li>
+                        <?php if ($this->options->socialFacebook): ?>
+                        <li><a href="<?php echo $this->options->socialFacebook; ?>" target="_blank"><span class="screen-reader-text">Facebook</span></a></li>
                         <?php endif; ?>
                         
-                        <?php if ($options->socialGitHub): ?>
-                        <li><a href="<?php echo $options->socialGitHub; ?>" target="_blank"><span class="screen-reader-text">GitHub</span></a></li>
+                        <?php if ($this->options->socialGitHub): ?>
+                        <li><a href="<?php echo $this->options->socialGitHub; ?>" target="_blank"><span class="screen-reader-text">GitHub</span></a></li>
                         <?php endif; ?>
                         
 
@@ -119,16 +119,16 @@
                 <div class="social-menu mobile">
 
                     <ul class="social-menu-inner">
-                        <?php if ($options->socialTwitter): ?>
-                        <li><a href="<?php echo $options->socialTwitter; ?>" target="_blank"><span class="screen-reader-text">Twitter</span></a></li>
+                        <?php if ($this->options->socialTwitter): ?>
+                        <li><a href="<?php echo $this->options->socialTwitter; ?>" target="_blank"><span class="screen-reader-text">Twitter</span></a></li>
                         <?php endif; ?>
                         
-                        <?php if ($options->socialFacebook): ?>
-                        <li><a href="<?php echo $options->socialFacebook; ?>" target="_blank"><span class="screen-reader-text">Facebook</span></a></li>
+                        <?php if ($this->options->socialFacebook): ?>
+                        <li><a href="<?php echo $this->options->socialFacebook; ?>" target="_blank"><span class="screen-reader-text">Facebook</span></a></li>
                         <?php endif; ?>
                         
-                        <?php if ($options->socialGitHub): ?>
-                        <li><a href="<?php echo $options->socialGitHub; ?>" target="_blank"><span class="screen-reader-text">GitHub</span></a></li>
+                        <?php if ($this->options->socialGitHub): ?>
+                        <li><a href="<?php echo $this->options->socialGitHub; ?>" target="_blank"><span class="screen-reader-text">GitHub</span></a></li>
                         <?php endif; ?>
                     </ul><!-- .social-menu-inner -->
 
